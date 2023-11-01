@@ -1,0 +1,29 @@
+*{
+    padding: 0;margin: 0;
+
+}
+nav{
+    padding:6px;
+
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 50px;
+    
+   
+}
+
+header{
+    background-color: wheat;
+    height: 30px;
+}
+
+#box1{
+    background-color:tomato;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 80px;
+   
+}
