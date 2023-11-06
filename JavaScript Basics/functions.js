@@ -1,40 +1,47 @@
-const user = {
-    username: "Atharva",
-    price: 99,
+// const user = {
+//     username: "Atharva",
+//     price: 99,
 
-    welcomeMessage: function(){
-        console.log(`${this.username} , welcome to website`);
-        console.log(this);
-    }
-}
-
-
-// user.welcomeMessage();
-// user.username='sam';
-// user.welcomeMessage();
+//     welcomeMessage: function(){
+//         console.log(`${this.username} , welcome to website`);
+//         console.log(this);
+//     }
+// }
 
 
-//! Arrow Functions
+// // user.welcomeMessage();
+// // user.username='sam';
+// // user.welcomeMessage();
 
-// ! Syntax :    () => {}
+
+// //! Arrow Functions
+
+// // ! Syntax :    () => {}
 
 // const chai = function(){
 //     console.log("Logged into chai");
 // }
 
 
-// const chai = () => {
-//     console.log("Logged in");
-// }
+// // const chai = () => {
+// //     console.log("Logged in");
+// // }
 
-// chai();
+// // chai();
 
 
-// const addTwoNumbers = (num1,num2) =>{
-//     console.log(`Sum is ${num1+num2}`);
-// }
+// // const addTwoNumbers = (num1,num2) =>{
+// //     console.log(`Sum is ${num1+num2}`);
+// // }
 
-// implict return 
-const addTwoNumbers = (num1,num2) => num1+num2;
+// // implict return 
+// const addTwoNumbers = (num1,num2) => num1+num2;
 
-addTwoNumbers(2,3);
+// addTwoNumbers(2,3);
+
+
+const func = function(){
+    console.log("Helli");
+}
+func();
+
