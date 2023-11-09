@@ -41,9 +41,9 @@
 // map 
 
 
-// const nums =[1,2,3,4,5,6,7,8]
+const nums =[1,2,3,4,5,6,7,8]
 
-// const newNums = nums.map((num)=> num+10)
+const newNums = nums.map((num)=> num+10)
 
 
 // const newNums =[]
@@ -53,7 +53,7 @@
 
 // })
 
-// console.log(newNums);
+console.log(newNums);
 
 
 // reduce method
@@ -73,24 +73,24 @@
 // console.log(myNums);
 
 
-const shoppingCart = [
-    {
-        itemName:"js course",
-        price:1000
-    },
-    {
-        itemName:"java course",
-        price:3000
-    },
-    {
-        itemName:"py course",
-        price:2000
-    }
+// const shoppingCart = [
+//     {
+//         itemName:"js course",
+//         price:1000
+//     },
+//     {
+//         itemName:"java course",
+//         price:3000
+//     },
+//     {
+//         itemName:"py course",
+//         price:2000
+//     }
     
-]
+// ]
 
 
-const bill = shoppingCart.reduce((acc,item)=> acc + item.price ,0)
+// const bill = shoppingCart.reduce((acc,item)=> acc + item.price ,0)
 
-console.log(bill);
+// console.log(bill);
 
