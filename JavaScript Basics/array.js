@@ -79,3 +79,10 @@
 // console.log(Array.of(sc1,sc2,sc3));
 
 
+const students =['Piyush','Joh','Jane']
+
+students.push({name:"Atharva"})
+
+console.log(students);
+
+

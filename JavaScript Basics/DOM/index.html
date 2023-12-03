@@ -8,11 +8,74 @@
     
 </head>
 <body>
-   <div id="bulb">
+   <div class="block">
+    <h4>Hey</h4>
+    <div class="block remove">
+        <h1 id="header">No hEader</h1>
+    </div>
+
+    <div class="remove">
+        <h2>Software Dev</h2>
+        <h2>Software Dev</h2>
+        <h2>Software Dev</h2>
+    </div>
+   </div>
 
    </div>
    <button>ON</button>
+
+   <button id="clickButton">Click on me</button>
+  
+   <hr>
+   <div>
+    <input id="username" type="text" placeholder="Enter name">
+   </div>
+   <button id="sendBtn">Send</button>
+
+   <script>
+     const el = document.getElementById('clickButton');
+    el.addEventListener('click',()=>{
+        console.log("Hacked")
+    })
+
+    const h= document.getElementById('header')
+
+    el.addEventListener("click", ()=>{
+        if(h.style.color==='red'){
+            h.style.color="blue";
+        }
+        else{
+            h.style.color="red";
+        }
+    })
+
+    // const allChildren = document.querySelector('body').children;
+
+    // for(let i=0;i<allChildren.length;++i){
+    //     allChildren.item(i).addEventListener("click",()=>{
+    //         allChildren.item(i).remove();
+    //     })
+    // }
+
+    const uname = document.getElementById("username")
+    const btn = document.getElementById("sendBtn")
+
+    btn.addEventListener("click",()=>{
+        const value = uname.value;
+        localStorage.setItem("name",value);
+        location.reload();
+    })
+
+    window.addEventListener('load',()=>{
+        const value = localStorage.getItem('name');
+        h.innerHTML=value;
+    })
+
+        
+   </script>
+
 </body>
-<script src="dom.js"></script>
+<!-- <script src="dom.js"></script> -->
+
 
 </html>
